@@ -2,7 +2,7 @@
 
 ## 🌍 O que é o **Atmos**?
 
-O **Atmos** é um inovador **aplicativo de previsão do tempo** criado pela **Atmosfera Tech**, desenvolvido em **Java**. Nosso objetivo é fornecer aos usuários informações precisas e atualizadas sobre o clima, com uma interface simples, acessível e agradável. 
+O **Atmos** é um inovador **aplicativo de previsão do tempo** criado pela **Atmosfera Tech**, desenvolvido em **Java**. Nosso objetivo é fornecer aos usuários informações precisas e atualizadas sobre o clima, com uma interface simples, acessível e agradável.
 
 Utilizando a **OpenWeatherMap API**, o **Atmos** permite que qualquer pessoa consulte a previsão do tempo em tempo real e de forma detalhada, trazendo dados essenciais como temperatura, umidade, ventos, entre outros.
 
@@ -23,11 +23,11 @@ Utilizando a **OpenWeatherMap API**, o **Atmos** permite que qualquer pessoa con
 
 O **Atmos** utiliza a **OpenWeatherMap API** para coletar dados precisos e atualizados sobre as condições climáticas. A OpenWeatherMap é uma das APIs meteorológicas mais confiáveis e populares, oferecendo informações como:
 
-- 🌡️ Temperatura atual e sensação térmica.
-- 💧 Umidade relativa do ar.
-- 🌬️ Velocidade do vento.
-- 🌦️ Condições climáticas (sol, chuva, nublado, etc.).
-- 📅 Previsões para os próximos dias.
+- 🌡️ **Temperatura atual** e **sensação térmica**.
+- 💧 **Umidade relativa do ar**.
+- 🌬️ **Velocidade do vento**.
+- 🌦️ **Condições climáticas** (sol, chuva, nublado, etc.).
+- 📅 **Previsões para os próximos dias**.
 
 ### Como Funciona
 
@@ -37,18 +37,18 @@ O **Atmos** utiliza a **OpenWeatherMap API** para coletar dados precisos e atual
 
 Para utilizar a API, é necessário se cadastrar no site da OpenWeatherMap, gerar uma chave de API (API Key) e configurá-la no código do aplicativo.
 
-[Visite a OpenWeatherMap](https://openweathermap.org/) para mais informações.
+[🌍 Visite a OpenWeatherMap](https://openweathermap.org/) para mais informações.
 
 ---
 
-## 🧑‍💻 Tecnologias Usadas
+## 🧑‍💻 **Tecnologias Usadas**
 
 - **Java**: Linguagem principal utilizada no desenvolvimento do aplicativo.
 - **OpenWeatherMap API**: Integração com a API para coleta de dados climáticos em tempo real.
 
 ---
 
-## 👩‍💻 Equipe de Desenvolvimento
+## 👩‍💻 **Equipe de Desenvolvimento**
 
 - **Thaylize Santos** 👩‍🎨  
   Responsável pelo **design do aplicativo**, criando uma interface gráfica moderna e acessível que proporciona uma experiência visual única e intuitiva para os usuários.
@@ -69,8 +69,10 @@ Para utilizar a API, é necessário se cadastrar no site da OpenWeatherMap, gera
 Para rodar o **Atmos** no seu computador, siga os passos abaixo:
 
 1. **Clone o repositório** para sua máquina local:
+   ```bash
+   git clone https://github.com/Atmosfera-Tech/ATMOS.git
 
-2. **Abra a pasta do projeto** na sua IDE preferida
+3. **Abra a pasta do projeto** na sua IDE preferida
 Recomendamos o uso do [IntelliJ IDEA](https://www.jetbrains.com/idea/) ou [Eclipse](https://www.eclipse.org/).
 
 ## Configure a chave da API
