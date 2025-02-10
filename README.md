@@ -70,5 +70,32 @@ Para rodar o **Atmos** no seu computador, siga os passos abaixo:
 
 1. **Clone o repositório** para sua máquina local:
 
-   ```bash
-   git clone https://github.com/Atmosfera-Tech/ATMOS.git
+2. ## Abra a pasta do projeto na sua IDE preferida
+Recomendamos o uso do [IntelliJ IDEA](https://www.jetbrains.com/idea/) ou [Eclipse](https://www.eclipse.org/).
+
+## Configure a chave da API
+3. Registre-se no site da OpenWeatherMap e obtenha uma **API Key**.
+4. Abra o arquivo de configuração do projeto (ex.: `config.java`) e insira sua chave de API no local indicado.
+
+## Compile e execute o projeto
+5. Na sua IDE, compile o código.
+6. Execute o aplicativo e veja a previsão do tempo em tempo real!
+
+---
+
+## 📱 Redes Sociais
+Fique por dentro das últimas atualizações e novidades sobre o **Atmos**!
+
+- Instagram: [@atmosfera.tech](https://www.instagram.com/atmosfera.tech)
+
+---
+
+## 📜 Licença
+Este projeto está licenciado sob a **MIT License**. Confira o arquivo `LICENSE` para mais informações.
+
+---
+
+## 💬 Agradecimentos
+🎉 **Obrigado por utilizar e confiar no nosso aplicativo!**
+
+O **Atmos** foi criado para facilitar sua vida com informações precisas sobre o clima. Agradecemos imensamente pelo seu apoio e confiança em nosso trabalho! Esperamos que o Atmos seja útil e que você continue nos acompanhando. 🌤️
