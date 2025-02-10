@@ -70,7 +70,7 @@ Para rodar o **Atmos** no seu computador, siga os passos abaixo:
 
 1. **Clone o repositório** para sua máquina local:
 
-2. ## Abra a pasta do projeto na sua IDE preferida
+2. **Abra a pasta do projeto** na sua IDE preferida
 Recomendamos o uso do [IntelliJ IDEA](https://www.jetbrains.com/idea/) ou [Eclipse](https://www.eclipse.org/).
 
 ## Configure a chave da API
