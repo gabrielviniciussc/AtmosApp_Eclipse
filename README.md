@@ -86,7 +86,7 @@ Recomendamos o uso do [IntelliJ IDEA](https://www.jetbrains.com/idea/) ou [Eclip
 ## 📱 Redes Sociais
 Fique por dentro das últimas atualizações e novidades sobre o **Atmos**!
 
-- Instagram: [@atmosfera.tech]([https://www.instagram.com/atmosfera.tech](https://www.instagram.com/atmosfera_tech01?igsh=MWw1eGNoeHVxd2h0cA==))
+- Instagram: [@atmosfera.tech]([https://www.instagram.com/atmosfera.tech](https://www.instagram.com/atmosfera_tech01?igsh=MWw1eGNoeHVxd2h0cA==)])
 
 ---
 
