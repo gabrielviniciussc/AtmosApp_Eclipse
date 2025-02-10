@@ -1,77 +1,74 @@
-# Atmos - Previsão do Tempo
+# 🌤️ **Atmos** - Aplicativo de Previsão do Tempo
 
-O **Atmos** é um aplicativo de previsão do tempo que permite ao usuário buscar a previsão do clima para uma cidade específica. O aplicativo utiliza dados fornecidos pela API **OpenWeatherMap** para apresentar informações sobre a temperatura, condição climática, umidade e velocidade do vento.
+## 🌍 O que é o **Atmos**?
 
-## Estrutura do Projeto
+O **Atmos** é um inovador **aplicativo de previsão do tempo** criado pela **Atmosfera Tech**, desenvolvido em **Java**. Nosso objetivo é fornecer aos usuários informações precisas e atualizadas sobre o clima, com uma interface simples, acessível e agradável. 
 
-Este projeto é composto por três componentes principais:
-
-### 1. **AtmosAppGui**
-A classe `AtmosAppGui` é a interface gráfica do usuário (GUI) do aplicativo. Ela é responsável por apresentar os dados de previsão do tempo para o usuário em uma janela gráfica.
-
-- **Funções principais**:
-  - Exibe uma janela com um campo de busca e um botão.
-  - O usuário insere o nome de uma cidade no campo de busca e clica em "Buscar".
-  - Após a consulta, os dados de clima são exibidos, incluindo a temperatura, condição climática, umidade e velocidade do vento.
-
-### 2. **AtmosAppApi**
-A classe `AtmosAppApi` é responsável por fazer as requisições à API do **OpenWeatherMap** para obter os dados de clima para a cidade solicitada. Ela utiliza o nome da cidade inserido pelo usuário para buscar as informações no serviço de previsão do tempo e retorna esses dados no formato JSON.
-
-- **Funções principais**:
-  - Faz uma requisição HTTP para o OpenWeatherMap usando a chave de API.
-  - Processa a resposta JSON e extrai informações como a temperatura, condição climática, umidade e velocidade do vento.
-
-### 3. **AppLauncher**
-A classe `AppLauncher` é o ponto de entrada do aplicativo. Ela inicializa e exibe a interface gráfica do usuário (`AtmosAppGui`).
-
-- **Funções principais**:
-  - Cria uma instância da GUI (`AtmosAppGui`).
-  - Exibe a interface para o usuário interagir.
-
-## Como Testar o Aplicativo
-
-### Requisitos
-1. **Java 11 ou superior** deve estar instalado em seu sistema.
-2. **Biblioteca JSON Simple**: o projeto depende da biblioteca `json-simple-1.1.1.jar` para processar os dados JSON da API.
-3. **API Key do OpenWeatherMap**: Você precisará de uma chave de API do OpenWeatherMap para obter os dados climáticos. Se ainda não tem, você pode obter uma chave gratuita no site do [OpenWeatherMap](https://openweathermap.org/api).
-
-### Passos para rodar o aplicativo
-
-1. **Baixar e configurar o projeto**:
-   - Baixe o código-fonte ou clone o repositório para o seu ambiente de desenvolvimento.
-   - Adicione a chave da API OpenWeatherMap na classe `AtmosAppApi`. Substitua a variável `apiKey` pela sua chave pessoal:
-   
-     ```java
-     private static final String API_KEY = "SUA_CHAVE_DE_API";
-     ```
-
-2. **Compilar e rodar**:
-   - Compile o projeto utilizando o comando:
-
-     ```bash
-     javac -cp ".;json-simple-1.1.1.jar" AtmosAppGui.java AtmosAppApi.java AppLauncher.java
-     ```
-
-   - Execute o aplicativo com o comando:
-
-     ```bash
-     java -cp ".;json-simple-1.1.1.jar" AppLauncher
-     ```
-
-3. **Interação com o aplicativo**:
-   - Ao iniciar o aplicativo, uma janela gráfica será exibida.
-   - Digite o nome de uma cidade e clique no botão "Buscar".
-   - A previsão do tempo será exibida, incluindo temperatura, condição climática, umidade e velocidade do vento.
-
-### Exemplo de Teste
-- **Cidade**: Tokyo
-- **Resultado Esperado**: A janela exibirá informações como a temperatura de Tokyo, condição climática (por exemplo, "nuvens quebradas"), umidade e vento.
-
-## Observações
-
-- Certifique-se de que a sua chave de API do OpenWeatherMap está configurada corretamente.
-- A API do OpenWeatherMap pode ter limitações de chamadas dependendo do seu plano (grátis ou pago).
+Utilizando a **OpenWeatherMap API**, o **Atmos** permite que qualquer pessoa consulte a previsão do tempo em tempo real e de forma detalhada, trazendo dados essenciais como temperatura, umidade, ventos, entre outros.
 
 ---
 
-Obrigado por usar o **Atmos**!
+## ⚙️ Funcionalidades
+
+✨ **Principais Funcionalidades:**
+
+- 🌡️ **Previsão do tempo em tempo real**.
+- 🌬️ **Informações detalhadas** sobre temperatura, umidade e velocidade do vento.
+- 🎨 **Interface gráfica intuitiva** e fácil de usar.
+- 🌦️ **Previsões para os próximos dias**.
+
+---
+
+## 🌐 **API - OpenWeatherMap**
+
+O **Atmos** utiliza a **OpenWeatherMap API** para coletar dados precisos e atualizados sobre as condições climáticas. A OpenWeatherMap é uma das APIs meteorológicas mais confiáveis e populares, oferecendo informações como:
+
+- 🌡️ Temperatura atual e sensação térmica.
+- 💧 Umidade relativa do ar.
+- 🌬️ Velocidade do vento.
+- 🌦️ Condições climáticas (sol, chuva, nublado, etc.).
+- 📅 Previsões para os próximos dias.
+
+### Como Funciona
+
+1. **Coleta de Dados**: O **Atmos** faz uma requisição à **OpenWeatherMap API** utilizando a localização do usuário.
+2. **Exibição no App**: Os dados são processados e apresentados de forma clara e acessível na interface gráfica do **Atmos**.
+3. **Precisão e Atualização**: A OpenWeatherMap oferece dados em tempo real, permitindo que os usuários do **Atmos** recebam informações meteorológicas sempre atualizadas.
+
+Para utilizar a API, é necessário se cadastrar no site da OpenWeatherMap, gerar uma chave de API (API Key) e configurá-la no código do aplicativo.
+
+[Visite a OpenWeatherMap](https://openweathermap.org/) para mais informações.
+
+---
+
+## 🧑‍💻 Tecnologias Usadas
+
+- **Java**: Linguagem principal utilizada no desenvolvimento do aplicativo.
+- **OpenWeatherMap API**: Integração com a API para coleta de dados climáticos em tempo real.
+
+---
+
+## 👩‍💻 Equipe de Desenvolvimento
+
+- **Thaylize Santos** 👩‍🎨  
+  Responsável pelo **design do aplicativo**, criando uma interface gráfica moderna e acessível que proporciona uma experiência visual única e intuitiva para os usuários.
+
+- **Gabriel Vinícius** 👨‍💻  
+  Responsável por **coletar e manipular os dados meteorológicos** através da OpenWeatherMap API, garantindo a precisão das informações exibidas no aplicativo.
+
+- **Maxwell De Sousa** 🔧  
+  Responsável pela **integração da API com a interface gráfica**, permitindo que os dados coletados sejam exibidos de forma clara e eficaz para o usuário.
+
+- **Victor Melo** 📱  
+  **Gerente das redes sociais** da Atmosfera Tech e contribuidor na parte da interface gráfica, ajudando a criar uma experiência ainda mais envolvente para os usuários.
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+Para rodar o **Atmos** no seu computador, siga os passos abaixo:
+
+1. **Clone o repositório** para sua máquina local:
+
+   ```bash
+   git clone https://github.com/Atmosfera-Tech/ATMOS.git
